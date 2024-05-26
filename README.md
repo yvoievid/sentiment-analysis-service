@@ -10,7 +10,7 @@ This way will take some time... This docker image downloads BERT model from hugg
 so it takes time to build.
 
 ```
-git clone ...
+git clone https://github.com/yvoievid/sentiment-analysis-service.git
 docker build -t sentiment-analysis-service .
 docker run -d -p 5000:5000 sentiment-analysis-service
 
@@ -31,7 +31,7 @@ download BERF_ft.model from [my repo](https://huggingface.co/yuriivoievidka/bert
 
 
 ```
-git clone ...
+git clone https://github.com/yvoievid/sentiment-analysis-service.git
 cd ./sentiment-analysis-service
 python -m venv .venv
 source ./bin/activate
