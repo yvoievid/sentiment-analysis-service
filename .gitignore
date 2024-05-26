@@ -6,7 +6,8 @@ pyvenv.cfg
 /.idea
 .DS_Store
 
-
+airflow_docker/logs
+airflow_docker/minio
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
