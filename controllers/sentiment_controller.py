@@ -10,4 +10,4 @@ def analyze():
     content = request.json
     text_to_analyze = content["text"]
     probabilities = sentiment_model.predict(text_to_analyze)
-    return jsonify({"probabilities": probabilities})
+    return jsonify({"review": probabilities})
