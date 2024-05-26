@@ -1,0 +1,4 @@
+Flask==3.0.3
+numpy==1.26.3
+transformers==4.41.1
+torch==2.3.0
